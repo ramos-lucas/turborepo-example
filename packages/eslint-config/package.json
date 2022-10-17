@@ -1,0 +1,27 @@
+{
+  "name": "@turborepo/eslint-config",
+  "version": "0.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-plugin-react": "7.31.8",
+    "eslint-config-turbo": "latest",
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
+    "eslint": "^8.20.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import-helpers": "^1.2.1",
+    "eslint-plugin-jsx-a11y": "^6.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-sort-export-all": "^1.2.2"
+  },
+  "peerDependencies": {
+    "eslint": ">=8"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

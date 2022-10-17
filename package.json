@@ -1,5 +1,5 @@
 {
-  "name": "turborepo",
+  "name": "@turborepo/turborepo",
   "version": "0.0.0",
   "private": true,
   "workspaces": [
@@ -10,12 +10,17 @@
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "prepare": "husky install"
   },
   "devDependencies": {
-    "eslint-config-custom": "*",
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "@turborepo/eslint-config": "*",
+    "lint-staged": "^13.0.3",
     "prettier": "latest",
-    "turbo": "latest"
+    "turbo": "latest",
+    "husky": "^8.0.0"
   },
   "engines": {
     "node": ">=14.0.0"
