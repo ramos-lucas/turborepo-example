@@ -1,5 +1,6 @@
 {
   "name": "@turborepo/eslint-config",
+  "private": true,
   "version": "0.0.0",
   "license": "MIT",
   "dependencies": {
@@ -20,8 +21,5 @@
   },
   "devDependencies": {
     "typescript": "^4.7.4"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }
