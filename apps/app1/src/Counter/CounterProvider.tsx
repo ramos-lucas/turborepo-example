@@ -2,12 +2,12 @@ import { createContext, PropsWithChildren, useContext, useMemo } from 'react';
 
 import { PrimitiveAtom } from 'jotai';
 
-import { createCounterState, ICounterState } from '@/Counter/state';
-import { useDecrement } from '@/Counter/usecases/useDecrement';
-import { useDecrementBy10 } from '@/Counter/usecases/useDecrementBy10';
-import { useIncrement } from '@/Counter/usecases/useIncrement';
-import { useIncrementBy10 } from '@/Counter/usecases/useIncrementBy10';
-import { useReset } from '@/Counter/usecases/useReset';
+import { createCounterState, ICounterState } from './state';
+import { useDecrement } from './usecases/useDecrement';
+import { useDecrementBy10 } from './usecases/useDecrementBy10';
+import { useIncrement } from './usecases/useIncrement';
+import { useIncrementBy10 } from './usecases/useIncrementBy10';
+import { useReset } from './usecases/useReset';
 
 interface ICounterContext {
   state: PrimitiveAtom<ICounterState>;

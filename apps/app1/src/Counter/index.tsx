@@ -1,5 +1,5 @@
-import { CounterActions } from '@/Counter/components/CounterActions';
-import { CounterValue } from '@/Counter/components/CounterValue';
+import { CounterActions } from './components/CounterActions';
+import { CounterValue } from './components/CounterValue';
 
 const Counter = () => (
   <>

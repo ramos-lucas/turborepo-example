@@ -2,7 +2,7 @@ import { createContext, PropsWithChildren, useContext } from 'react';
 
 import { useAtomValue } from 'jotai';
 
-import { useCounterProvider } from '@/Counter/CounterProvider';
+import { useCounterProvider } from './CounterProvider';
 
 interface IPermissionsContext {
   shouldEnableReset: () => boolean;

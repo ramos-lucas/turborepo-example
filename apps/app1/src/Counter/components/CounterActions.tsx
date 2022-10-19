@@ -1,5 +1,5 @@
-import { useCounterProvider } from '@/Counter/CounterProvider';
-import { usePermissionsProvider } from '@/Counter/PermissionsProvider';
+import { useCounterProvider } from '../CounterProvider';
+import { usePermissionsProvider } from '../PermissionsProvider';
 
 const CounterActions = () => {
   const { increment, decrement, incrementBy10, decrementBy10, reset } =

@@ -1,6 +1,6 @@
 import { useAtomValue } from 'jotai';
 
-import { useCounterProvider } from '@/Counter/CounterProvider';
+import { useCounterProvider } from '../CounterProvider';
 
 const CounterValue = () => {
   const { state } = useCounterProvider();
