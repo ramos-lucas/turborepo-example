@@ -1,19 +1,9 @@
-import { useState } from 'react';
-
-import './index.css';
+import { AgreementFormModule } from '@/modules/AgreementForm';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div className="App">
-      <h1>App 2</h1>
-
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div>
+    <div>
+      <AgreementFormModule />
     </div>
   );
 }
