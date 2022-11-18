@@ -1,6 +1,6 @@
 interface LeverFormStrategy {
-  renderLeverHeader(): React.ReactNode;
-  renderTarget(): React.ReactNode;
+  renderLeverHeader(): React.ReactElement;
+  renderTarget(): React.ReactElement;
 }
 
 export type { LeverFormStrategy };

@@ -1,11 +1,7 @@
-import { AgreementFormModule } from '@/modules/AgreementForm';
+import { AgreementFormPage } from '@/pages/AgreementFormPage';
 
 function App() {
-  return (
-    <div>
-      <AgreementFormModule />
-    </div>
-  );
+  return <AgreementFormPage />;
 }
 
 export { App };
